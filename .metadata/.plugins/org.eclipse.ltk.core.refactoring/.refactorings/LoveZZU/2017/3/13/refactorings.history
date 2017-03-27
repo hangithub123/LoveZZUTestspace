@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;LoveZZU/src/com/zzu/struts/xml/struts.xml&apos; to &apos;module.user.xml&apos;" description="Rename resource &apos;struts.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/com/zzu/struts/xml/struts.xml" name="module.user.xml" stamp="1490607792597" updateReferences="true"/>
+</session>

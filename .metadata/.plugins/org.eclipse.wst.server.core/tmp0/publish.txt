@@ -1,0 +1,5 @@
+#Tomcat publish data
+#Mon Mar 27 21:35:48 CST 2017
+org.eclipse.jst.jee.server\:/binary\:E\:\\LoveZZUTestspace\\LoveZZU\\WebContent\\WEB-INF\\lib\\spring-web-4.2.4.RELEASE.jar=E\:\\androidFile\\apache-tomcat-8.0.37\\webapps\\LoveZZU\\WEB-INF\\lib\\spring-web-4.2.4.RELEASE.jar
+org.eclipse.jst.jee.server\:upload=E\:\\androidFile\\apache-tomcat-8.0.37\\webapps\\upload
+org.eclipse.jst.jee.server\:LoveZZU=E\:\\androidFile\\apache-tomcat-8.0.37\\webapps\\LoveZZU

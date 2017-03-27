@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<!-- 1 配置类和表对应 
+		class标签
+		name属性：实体类全路径
+		table属性：数据库表名称
+	-->
+	<class name="com.zzu.entity.User" table="t_user">
+		<id name="uid" column="uid" >
+			<generator class="native"></generator>
+		</id>
+		<property name="phone" column="phone"></property>
+		<property name="password" column="password"></property>
+		<property name="verification_code" column="verification_code"></property>
+		
+   <!-- 配置映射用户信息表 -->
+		<set name="setuserinfo" cascade="save-update" inverse="true">
+		<key column="ul_id"></key>
+		<one-to-many  class="com.zzu.entity.UserInfo"/>
+		
+		</set>
+		
+	</class>
+</hibernate-mapping>
